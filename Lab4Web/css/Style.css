@@ -1,0 +1,147 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:rgba(19, 43, 108, 0.655);
+    display: flex;
+        align-items: baseline;
+        justify-content: center;
+}
+.circle{
+    background-color: red;
+    position: relative;
+    height: 500px;
+    width: 650px;
+    border-radius: 50% 50% 41% 43% / 56% 56% 44% 42% ;
+    top: 50px;
+    box-shadow: 0px 0px 0px 15px black;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.circle2{
+    background-color: white;
+    position: relative;
+
+    top: 30px;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    left: 300px;
+    transform: translateX(-50%);
+    margin-left: auto;
+    margin-right: auto;
+}
+.circle3{
+    background-color: white;
+    position: relative;
+
+    top: 185px;
+    height: 200px;
+    width: 100px;
+    border-radius: 36% 54% 47% 47% / 49% 73% 25% 57%   ;
+    left: -326px;
+    transform: translateX(-50%);
+    margin-left: auto;
+    margin-right: auto;
+}
+.circle4{
+    background-color: white;
+    position: relative;
+
+    top: 185px;
+    height: 200px;
+    width: 100px;
+    border-radius: 43% 50% 47% 47% / 65% 43% 55% 42% ;
+    left: 76px;
+    transform: translateX(-50%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.face1{
+    background-color: wheat;
+    position: relative;
+
+    height: 130px;
+    width: 300px;
+    border-radius: 50% 50% 0 0;
+    top: 0px;
+    left: 0px;
+    transform: rotate(180deg);
+    overflow: hidden;
+    box-shadow: 0px -5px 0px 5px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.face2{
+    background-color: wheat;
+    position: relative;
+
+    margin: 0px;
+    height: 60px;
+    top: -190px;
+    left: 0px;
+    width: 300px;
+    border-radius: 50% / 100% 100% 0% 0%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px -5px 0px 5px black;
+}
+.ojo1{
+    background-color: black;
+    position: relative;
+    transition: width 2s, height 4s;
+
+    top: -210px;
+    left: 260px;
+    height: 90px;
+    width: 33px;
+    border-radius: 48% 55% 49% 48% / 48% 51% 50% 50% ;
+}
+.ojo2{
+    background-color: black;
+    position: relative;
+
+    top: -300px;
+    left: 350px;
+    height: 90px;
+    width: 32px;
+    border-radius: 48% 55% 49% 48% / 48% 51% 50% 50% ;
+}
+.pupila1{
+    background-color: white;
+    position: relative;
+
+    top: 13px;
+    left: 9px;
+    height: 33px;
+    width: 15px;
+    border-radius: 100%;
+
+}
+.pupila2{
+    background-color: white;
+    position: relative;
+
+    top: 13px;
+    left: 9px;
+    height: 33px;
+    width: 15px;
+    border-radius: 100%;
+
+}
+.ojo1:hover, .ojo2:hover, .pupila1:hover, .pupila2:hover {
+    animation: flash 0.2s infinite;
+  }
+  .circle:hover {
+    background-color: green;
+  }
+  
+  
+  
+@keyframes flash {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
